@@ -1,0 +1,18 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: #22201e;
+  height: 30vh;
+  font-family: "open sans";
+}
+
+.contact a {
+  margin: 1rem;
+  height: 5vh;
+  width: 5vh;
+}
+.contact h1 {
+  font-size: 30px;
+}

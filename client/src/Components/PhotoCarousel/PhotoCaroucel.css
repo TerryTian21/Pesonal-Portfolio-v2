@@ -1,0 +1,19 @@
+.photo-caroucel-container {
+  margin-top: 5%;
+  height: 60%;
+  width: 45%;
+  border: 10px solid white;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.caroucel-img {
+  height: 100%;
+  transition: transform 0.2s ease-in-out, opacity 0.3s ease-in-out; /* Transition for image size and opacity */
+  cursor: pointer;
+}
+
+.shrunk {
+  transform: scale(0.9); /* Apply a scale transform to shrink the image */
+  opacity: 0.8; /* Reduce opacity when shrunk */
+}

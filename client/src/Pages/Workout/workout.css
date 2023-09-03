@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../../Fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "lobster";
+  src: url("../../Fonts/Lobster-Regular.ttf");
+}
+
+@font-face {
+  font-family: "abel";
+  src: url("../../Fonts/Abel-Regular.ttf");
+}
+
+.page-container {
+  display: flex;
+  flex-direction: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.button-modal-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 60vh;
+}
+
+.button-modal {
+  background-color: #1e1c1a;
+  color: white;
+  font-weight: bold;
+  font-family: "Bebas Neue";
+  border: 3px solid white;
+  padding: 10px 30px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.button-modal:hover {
+  transform: scale(1.2);
+}
+
+.workout-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/calendar7.jpg"); /* Replace with the path to your image */
+  background-size: cover; /* Scale the image to cover the entire div */
+  background-position: center; /* Position the image at the center */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.month {
+  font-family: "abel";
+  font-size: 3em;
+  color: white;
+  margin-left: 4vw;
+}
+
+.selector {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2vw;
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  height: 100vh;
+  width: 100vw;
+}

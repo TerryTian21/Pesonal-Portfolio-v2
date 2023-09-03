@@ -1,0 +1,136 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  border-width: 3px;
+  background-color: rgba(232, 232, 232, 0.15);
+  border-color: white;
+  border-radius: 5%;
+  color: white;
+}
+
+.button-profile-container {
+  height: 12%;
+  font-size: larger;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 2em;
+  padding-left: 2em;
+  margin-top: 2px;
+  border-bottom-width: 3px;
+  border-bottom-color: white;
+}
+
+.button-close {
+  color: white;
+  font-weight: bold;
+}
+
+.button-close:hover {
+  color: #b9646b;
+}
+
+.profile-content {
+  height: auto;
+  font-size: 30px;
+  font-family: "abel";
+}
+
+.workout-info {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  padding: 1em;
+}
+
+.left-profile-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.right-profile-container {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.workout-img-container {
+  display: flex;
+  height: 70%;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.workout-image {
+  width: 85%;
+  height: 100%;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 5%;
+  background-image: url("../../../images/workout.jpg");
+  background-size: cover; /* Scale the image to cover the entire div */
+  background-position: center; /* Position the image at the center */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+}
+
+.weight {
+  padding-top: 1em;
+  font-size: 3.5vh;
+  font-family: "abel";
+  font-weight: bolder;
+}
+
+.workout-exercise-title {
+  font-size: 3.5vh;
+  font-family: "abel";
+  font-weight: bolder;
+}
+
+.workout-exercise-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.workout-exercise {
+  width: 100%;
+  height: 90%;
+  max-height: 50vh;
+  border-radius: 5%;
+  border-color: white;
+  border-width: 2px;
+  padding: 1em;
+  display: grid;
+  background-color: rgba(240, 240, 240, 0.25);
+  grid-template-columns: auto auto auto;
+  overflow: auto;
+}
+
+.exercise-item {
+  font-family: "monospace";
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 0.5s ease-in-out;
+  font-size: 2vh;
+}
+
+.slide-in {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.list-heading {
+  font-size: 2.5vh;
+  font-family: "bebes neue";
+}

@@ -1,0 +1,302 @@
+[
+  {
+    "date": "08/20/2023",
+    "workout": [
+      {
+        "name": "benchpress",
+        "weight": "135",
+        "reps": "8",
+        "sets": "1"
+      },
+      {
+        "name": "benchpress",
+        "weight": "155",
+        "reps": "4",
+        "sets": "1"
+      },
+      {
+        "name": "benchpress",
+        "weight": "165",
+        "reps": "8",
+        "sets": "1"
+      },
+      {
+        "name": "benchpress",
+        "weight": "150",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "benchpress",
+        "weight": "135",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "incline bench",
+        "weight": "95",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "incline bench",
+        "weight": "105",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "incline bench",
+        "weight": "110",
+        "reps": "9",
+        "sets": "1"
+      },
+      {
+        "name": "dumbell shoulder",
+        "weight": "35",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": "lateral raise",
+        "weight": "15",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": "tricep extension",
+        "weight": "12.5",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "tricep extension",
+        "weight": "15",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "tricep pushdown",
+        "weight": "35",
+        "reps": "10",
+        "sets": "1"
+      }
+    ],
+    "bodyweight": "144"
+  },
+  {
+    "date": "08/21/2023",
+    "workout": [
+      {
+        "name": "squat",
+        "weight": "135",
+        "reps": "8",
+        "sets": "1"
+      },
+      {
+        "name": "squat",
+        "weight": "185",
+        "reps": "8",
+        "sets": "1"
+      },
+      {
+        "name": "squat",
+        "weight": "225",
+        "reps": "4",
+        "sets": "1"
+      },
+      {
+        "name": "squat",
+        "weight": "250",
+        "reps": "3",
+        "sets": "1"
+      },
+      {
+        "name": "squat",
+        "weight": "235",
+        "reps": "3",
+        "sets": "1"
+      },
+      {
+        "name": "squat",
+        "weight": "235",
+        "reps": "6",
+        "sets": "2"
+      },
+      {
+        "name": "squat",
+        "weight": "205",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "Dumbell RDL",
+        "weight": "55",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": "Leg Extensions",
+        "weight": "70",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": "Hip Abductions",
+        "weight": "75",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": " Seated Calf Raises",
+        "weight": "135",
+        "reps": "10",
+        "sets": "3"
+      }
+    ],
+    "bodyweight": "144"
+  },
+  {
+    "date": "08/24/2023",
+    "workout": [
+      {
+        "name": "lat pulldown",
+        "weight": "80",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "lat pulldown",
+        "weight": "100",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "lat pulldown",
+        "weight": "120",
+        "reps": "10",
+        "sets": "2"
+      },
+      {
+        "name": "seated rows",
+        "weight": "80",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "seated rows",
+        "weight": "85",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "seated rows",
+        "weight": "90",
+        "reps": "10",
+        "sets": "2"
+      },
+      {
+        "name": "jpg pull down",
+        "weight": "27.5",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": "preacher curl",
+        "weight": "40",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": "hammer curl",
+        "weight": "20",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": "assisted pull-up",
+        "weight": "90",
+        "reps": "8",
+        "sets": "3"
+      }
+    ],
+    "bodyweight": "143"
+  },
+  {
+    "date": "08/25/2023",
+    "workout": [
+      {
+        "name": "benchpress",
+        "weight": "135",
+        "reps": "7",
+        "sets": "1"
+      },
+      {
+        "name": "benchpress",
+        "weight": "155",
+        "reps": "4",
+        "sets": "1"
+      },
+      {
+        "name": "benchpress",
+        "weight": "165",
+        "reps": "7",
+        "sets": "1"
+      },
+      {
+        "name": "benchpress",
+        "weight": "175",
+        "reps": "3",
+        "sets": "1"
+      },
+      {
+        "name": "benchpress",
+        "weight": "155",
+        "reps": "6",
+        "sets": "1"
+      },
+      {
+        "name": "benchpress",
+        "weight": "135",
+        "reps": "11",
+        "sets": "1"
+      },
+      {
+        "name": "incline bench",
+        "weight": "100",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": "military press",
+        "weight": "70",
+        "reps": "10",
+        "sets": "3"
+      },
+      {
+        "name": "lateral raise",
+        "weight": "15",
+        "reps": "12",
+        "sets": "3"
+      },
+      {
+        "name": "tricep pushdown",
+        "weight": "35",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "tricep pushdown",
+        "weight": "40",
+        "reps": "10",
+        "sets": "1"
+      },
+      {
+        "name": "tricep pushdown",
+        "weight": "45",
+        "reps": "10",
+        "sets": "2"
+      }
+    ],
+    "bodyweight": "145.6"
+  }
+]

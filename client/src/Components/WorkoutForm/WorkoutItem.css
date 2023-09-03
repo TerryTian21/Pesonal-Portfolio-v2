@@ -1,0 +1,27 @@
+.workout-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  font: "abel";
+}
+
+.item-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.item-header h2:hover {
+  color: grey;
+  cursor: pointer;
+}
+
+.delete-button {
+  font-size: 3vh;
+}
+
+.delete-button:hover {
+  color: #b9646b;
+}

@@ -1,0 +1,82 @@
+.right-sub-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 4vw;
+}
+
+.right-sub-container h1 {
+  font-family: "bebes neue";
+  width: fit-content;
+  transform: rotate(-10deg);
+  font-size: 2em;
+  color: white;
+  margin-bottom: 5vh;
+}
+
+.achievements-container,
+.goal-container {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-size: 1.25em;
+  font-family: "abel";
+  gap: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.achievement-item,
+.goal-item {
+  height: 20vh;
+  width: 20vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(45deg, #f7eb86, #e9d363);
+  padding: 0.5em;
+  border-width: 3px;
+  border-color: white;
+  font-weight: 400;
+  color: black;
+  text-shadow: 2px 2px white;
+  position: relative;
+}
+
+.achievement-item:hover,
+.goal-item:hover {
+  box-shadow: 0 0 15px 10px rgba(52, 152, 219, 0.7);
+  z-index: 1;
+}
+
+.goal-container {
+  font-size: larger;
+}
+
+.bench {
+  transform: rotate(20deg);
+}
+.squat {
+  transform: rotate(-15deg);
+}
+.emtpy-note {
+  transform: rotate(-20deg);
+}
+
+.bench-goal {
+  transform: rotate(-25deg);
+}
+.squat-goal {
+  transform: rotate(15deg);
+  position: absolute;
+  margin-left: 7vw;
+}
+.deadlift-goal {
+  margin-left: 6vw;
+  margin-top: 5vh;
+}
+.weight-goal {
+  transform: rotate(10deg);
+}

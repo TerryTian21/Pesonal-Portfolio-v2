@@ -1,0 +1,31 @@
+CHANGES
+- Change the preload background or animation (the colours don't feel right)
+- About page font and colour changes
+- Make calendar component for workout
+
+FRAMER MOTION
+
+Srolling Animation
+- PROMPT: 
+
+	How would you apply the motion.div animation effect to divs as a user scrolls up and down a page. For example as a user scrolls down the page, the content in the current div fades out.
+
+- Change the sidebar to diamonds that indicate which div a user is on
+- Have a fade-in/fade-out animation as user changes divs
+- Have text load in as the user scrolls
+
+_________________________________________________________________________________________
+
+About
+- Projects displayed like a timeline (then list links to resume, github, linkedin)
+	- Uses the framer motion scroller
+- FIX CARD COMPONENT
+	
+Workout
+- Create DB in Azure
+- Complete the get and post functions in frontend
+- Make sure the add data function requires user-verification/sign-in
+
+Adventures
+- Develop a scrolling picture real (https://www.30secondsofcode.org/css/s/horizontal-gallery/)
+- Horizontally scrolling to view the different places

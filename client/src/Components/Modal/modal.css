@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "Bebes Neue";
+  src: url("../../Fonts/BebasNeue-Regular.ttf");
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  border: 3px solid white;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #1e1c1a;
+  color: white;
+  height: 50vh;
+  width: 100vh;
+}
+
+.image-section {
+  flex: 1;
+  padding: 20px;
+  margin-top: 1;
+}
+
+.image-section img {
+  max-width: 100%;
+  height: auto;
+}
+
+.qa-section {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: left; /* Align items horizontally in the center */
+}
+
+.qa-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: "Bebes Neue";
+}
+
+.qa-section p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-family: "Bebes Neue";
+}
+
+.qa-section input {
+  margin-top: 1rem;
+  color: black;
+  font-family: "Bebes Neue";
+}
+
+.modal-button {
+  color: white;
+  width: fit-content;
+  background-color: #1e1c1a;
+  border: 3px solid white;
+  font-family: "Bebes Neue";
+  padding: 5px 10px;
+  margin-top: 15%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.modal-button {
+  background-color: transparent;
+  border: 3px solid #00d7c3;
+  border-radius: 50px;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
+  color: #00d7c3;
+}
+.modal-button:hover {
+  box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+  border: 3px solid #00d7c3;
+}

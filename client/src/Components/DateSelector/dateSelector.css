@@ -1,0 +1,87 @@
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+}
+
+.custom-dropdown {
+  font-size: medium;
+  font-family: "monospace";
+  color: white;
+}
+
+.selected-option {
+  padding: 5px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.dropdown-open-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.year-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 5px;
+}
+
+.year-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.2em;
+  width: 1.2em;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: black;
+}
+
+.year-button:hover {
+  background-color: lightgrey;
+}
+
+.selected-year {
+  margin: 0 10px;
+  font-size: 1.2rem;
+}
+
+.options {
+  position: absolute;
+  color: #1e1c1a;
+  display: grid;
+  background-color: #f9f6ee;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 10% repeat(4, 1fr);
+  padding: 10px;
+  z-index: 1;
+  font-family: "monospace";
+}
+
+.year-option:first-child {
+  grid-column: 1 / span 3; /* Take up 4 columns */
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75em;
+  cursor: pointer;
+}
+
+.selected {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(92, 92, 92, 0.6);
+  color: white;
+  padding: 5px;
+}

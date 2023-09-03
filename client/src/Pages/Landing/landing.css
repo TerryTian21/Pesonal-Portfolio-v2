@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Heading";
+  src: url("../../Fonts/OpenSans/OpenSans_SemiCondensed-LightItalic.ttf");
+}
+
+@font-face {
+  font-family: "Transition";
+  src: url("../../Fonts/OpenSans/OpenSans-Italic.ttf");
+}
+
+.background-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+}
+
+.text-container {
+  color: ivory;
+  text-align: center;
+  font-family: "Heading";
+  font-weight: 900;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.title {
+  font-size: 55px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
+.transition {
+  margin-top: 3rem;
+  font-family: "Transition";
+  font-size: 15px;
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.transition:hover {
+  color: #a53020;
+}
+
+.transition::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #a53020;
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+
+.transition:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}

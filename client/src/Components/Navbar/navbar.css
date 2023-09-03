@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url("../../Fonts/BebasNeue-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* Navbar.css */
+.navbar {
+  padding: 1rem;
+  background-color: #1e1c1a;
+  width: 100%;
+}
+
+.navbar-home {
+  padding: 1rem;
+  width: 100vw;
+}
+
+.logo {
+  color: #8c94a2;
+  font-family: "Bebas Neue";
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  color: #8c94a2;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: border-width 0.1s ease-in-out;
+}
+
+.link:hover {
+  color: #b9646b;
+  border-bottom-color: #b9646b;
+  border-bottom-width: 3px;
+}
+
+.nav-link-current {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  padding: 5px 10px;
+}

@@ -1,0 +1,38 @@
+.item {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  align-items: left;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  color: white;
+  border-width: 1px;
+  border-color: white;
+}
+
+.item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.current {
+  height: 1.5em;
+  width: 1.5em;
+  background-color: #b9646b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.has-workout {
+  height: 10%;
+  width: 10%;
+  border-radius: 50%;
+  background-color: #b9646b;
+}
